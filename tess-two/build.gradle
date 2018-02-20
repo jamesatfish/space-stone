@@ -95,17 +95,17 @@ artifacts {
 install {
     repositories.mavenInstaller {
         pom.project {
-            name = 'tess-two'
+            name = 'space-stone'
 
             packaging = 'aar'
-            groupId = 'com.rmtheis'
-            artifactId = 'tess-two'
+            groupId = 'com.jamesatfish'
+            artifactId = 'space-stone'
 
             developers {
                 developer {
-                    id = 'rmtheis'
-                    name = 'Robert Theis'
-                    email = 'robert.m.theis@gmail.com'
+                    id = 'jamesatfish'
+                    name = 'James Hodge'
+                    email = 'james@fyshh.com'
                 }
             }
             licenses {
@@ -128,7 +128,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'maven'
-        name = 'tess-two'
+        name = 'space-stone'
         userOrg = user
         publish = true
     }

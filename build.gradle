@@ -14,8 +14,8 @@ buildscript {
 
 allprojects {
 
-    group = 'com.rmtheis'
-    version = '8.0.0'
+    group = 'com.jamesatfish'
+    version = '8.0.1'
 
     project.ext {
         compileSdkVersion=27
