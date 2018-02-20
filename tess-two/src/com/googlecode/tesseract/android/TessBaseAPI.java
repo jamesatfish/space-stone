@@ -350,6 +350,10 @@ public class TessBaseAPI {
         return success;
     }
 
+    public void setMRZConfiguration() {
+        setVariable("tessedit_char_blacklist", "L");
+    }
+
     /**
      * Returns the languages string used in the last valid initialization.
      * If the last initialization specified "deu+hin" then that will be
