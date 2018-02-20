@@ -351,7 +351,7 @@ public class TessBaseAPI {
     }
 
     public void setMRZConfiguration() {
-        setVariable("tessedit_char_blacklist", "L");
+        setVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<");
     }
 
     /**
